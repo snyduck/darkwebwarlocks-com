@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  margin: 0;
   text-align: center;
 }
 
@@ -22,9 +23,29 @@ body {
 }
 
 .footer p {
-    /* color: wheat; */
+  /* color: wheat; */
+  text-align: left;
+  position: relative;
+}
+
+.main-content {
+  background-color: white;
+  margin: 0 auto;
+  height: 100%;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.main-content p {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 40%;
     text-align: left;
-    position: relative;
+}
+
+.haruspex-img {
+    display: inline-block;
 }
 
 /* .header {
