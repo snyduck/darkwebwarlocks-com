@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+.intro-container {
+  margin: auto 0;
+}
+
+.title {
+  color: white;
+  font-family: "Tilt Prism", cursive;
+  font-size: 8rem;
+  font-weight: lighter;
+}
+
+.wizard-logo {
+  width: 800px;
+  /* width: 30%; */
+  /* height: 800px; */
+  margin: auto auto;
+}
+
+.footer p {
+    /* color: wheat; */
+    text-align: left;
+    position: relative;
+}
+
+/* .header {
+background-color: green;
+width: 100%;
+height: 300px; */
+/* background-image: url("images/wzrd.png"); */
+/* background-size: 100% auto;
+z-index: 9;
+} */
+/* 
+.wizard-box {
+    background-color: orange;
+    padding: 900px 0;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.dww {
+    padding: 50px 0;
+    color: rgb(194, 150, 28);
+    font-family: Macondo;
+}
+
+.dww h1 {
+    font-size: 15rem;
+    justify-content: center;
+    text-align: center;
+}
+ */
