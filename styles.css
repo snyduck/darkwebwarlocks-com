@@ -10,7 +10,7 @@ body {
 
 .title {
   color: white;
-  font-family: "Tilt Prism", cursive;
+  font-family: "Tilt Prism", consolas;
   font-size: 8rem;
   font-weight: lighter;
 }
@@ -20,6 +20,7 @@ body {
   /* width: 30%; */
   /* height: 800px; */
   margin: auto auto;
+  display: block;
 }
 
 .footer p {
@@ -34,18 +35,40 @@ body {
   height: 100%;
   padding: 2rem 0;
   width: 100%;
+  text-align: center;
 }
 
 .main-content p {
-    display: inline-block;
     font-size: 1.5rem;
     line-height: 2rem;
     width: 40%;
-    text-align: left;
+    text-align: center;
 }
 
-.haruspex-img {
-    display: inline-block;
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: "Tilt Prism", consolas;
+  color: #000000;
+  font-size: 4rem;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+  width: 25rem;
+  margin: 0 3rem 3rem 3rem;
+}
+
+.btn:hover {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
 
 /* .header {
