@@ -4,101 +4,30 @@ body {
   text-align: center;
 }
 
-.intro-container {
-  margin: auto 0;
+#intro-container {
+/* background-color: red; */
 }
 
 .title {
   color: white;
   font-family: "Tilt Prism", consolas;
-  font-size: 8rem;
+  font-size: 555%;
   font-weight: lighter;
+  padding-top: 4%;
 }
 
 .wizard-logo {
-  width: 800px;
-  /* width: 30%; */
-  /* height: 800px; */
+  width: 30%;
   margin: auto auto;
   display: block;
 }
 
-.footer p {
-  /* color: wheat; */
-  text-align: left;
-  position: relative;
-}
-
-.main-content {
-  background-color: white;
-  margin: 0 auto;
-  height: 100%;
-  padding: 2rem 0;
-  width: 100%;
-  text-align: center;
-}
-
-.main-content p {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    width: 40%;
-    text-align: center;
-}
-
-/* TODO: Replace button custom CSS with Bootstrap */
 .btn {
-  -webkit-border-radius: 11;
-  -moz-border-radius: 11;
-  border-radius: 11px;
   font-family: "Tilt Prism", consolas;
-  font-weight: bold;
-  color: #000000;
-  font-size: 5rem;
-  background: #ffffff;
-  /* padding: 10px 20px 10px 20px; */
-  text-decoration: none;
-  display: inline-block;
-  margin: 0 auto;
-  width: 25rem;
-  margin: 0 3rem 3rem 3rem;
+  padding: 0.5% 2%;
+  font-size: 355%;
 }
 
 .btn:hover {
-  background: #ff0000;
-  /* background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db); */
-  text-decoration: none;
+  background-color: red;
 }
-
-/* .header {
-background-color: green;
-width: 100%;
-height: 300px; */
-/* background-image: url("images/wzrd.png"); */
-/* background-size: 100% auto;
-z-index: 9;
-} */
-/* 
-.wizard-box {
-    background-color: orange;
-    padding: 900px 0;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-.dww {
-    padding: 50px 0;
-    color: rgb(194, 150, 28);
-    font-family: Macondo;
-}
-
-.dww h1 {
-    font-size: 15rem;
-    justify-content: center;
-    text-align: center;
-}
- */
