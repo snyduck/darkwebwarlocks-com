@@ -24,6 +24,7 @@ body {
 
 .btn {
   font-family: "Tilt Prism", consolas;
+  font-weight: bolder;
   padding: 0.5% 2%;
   font-size: 355%;
 }
