@@ -1,23 +1,44 @@
+/* TODO: Enhance mobile friendliness */
+
 body {
   background-color: black;
   margin: 0;
   text-align: center;
 }
 
+.row {
+  margin-bottom: 2rem;
+}
+
 #intro-container {
-/* background-color: red; */
+  /* background-color: red; */
+}
+
+.navbar {
+  font-family: "Tilt Prism", consolas;
+}
+
+.navbar-brand {
+  /* color: black; */
+  font-family: "Tilt Prism", consolas;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.nav-link {
+  font-size: 2rem;
 }
 
 .title {
   color: white;
   font-family: "Tilt Prism", consolas;
-  font-size: 555%;
+  font-size: 8rem;
   font-weight: lighter;
-  padding-top: 4%;
+  padding-top: 2%;
 }
 
 .wizard-logo {
-  width: 30%;
+  width: 44rem;
   margin: auto auto;
   display: block;
 }
@@ -27,8 +48,35 @@ body {
   font-weight: bolder;
   padding: 0.5% 2%;
   font-size: 355%;
+  margin: 0 2rem;
 }
 
 .btn:hover {
   background-color: red;
+}
+
+.pla {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.war {
+  font-family: "New Rocker", arial;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+  .title {
+    font-size: 9vw;
+  }
+
+  .wizard-logo {
+    width: 60vw;
+    margin: auto auto;
+    display: block;
+  }
+
+  .bottom-row a {
+    margin: 2rem 0;
+  }
 }
